@@ -1,5 +1,5 @@
 html {
-    padding: 100px
+    padding: 100px 10px;
 }
 
 button {
@@ -40,9 +40,8 @@ button {
     height: 96px;
     border: 1px solid grey;
     margin: 0;
-    padding: 3px;
-    display: inline-block;
-
+    padding: 1px;
+    box-sizing: content-box;
 }
 
 .flag-de {
