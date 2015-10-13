@@ -1,0 +1,58 @@
+html {
+    padding: 100px
+}
+
+button {
+    width: 32px;
+    height: 24px;
+    border: 0;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.flag-container-mini {
+    width: 16px;
+    height: 12px;
+    border: 1px solid grey;
+    margin: 0;
+    padding: 1px;
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+.flag-container {
+    width: 64px;
+    height: 48px;
+    border: 1px solid grey;
+    margin: 0;
+    padding: 4px;
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+.flag-div {
+    width: inherit;
+    height: inherit;
+}
+
+.flag-img {
+    width: 128px;
+    height: 96px;
+    border: 1px solid grey;
+    margin: 0;
+    padding: 3px;
+    display: inline-block;
+
+}
+
+.flag-de {
+    background: url(flagstack.svg#de) no-repeat !important;
+}
+
+.flag-es {
+    background: url(flagstack.svg#es) no-repeat !important;
+}
+
+.flag-mk {
+    background: url(flagstack.svg#mk) no-repeat !important;
+}
